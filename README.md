@@ -42,8 +42,13 @@ git log --oneline - команда, при которой в  терминале
 
 ```mermaid
 graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+  untracked -- "git add" --> staged\n(в списке на коммит)\n+tracked;
+  staged\n(в списке на коммит)\n+tracked    -- "git commit"     --> tracked\n(отслеживаемый);
+  tracked\n(отслеживаемый) -- "Изменения" --> modified\n(изменённый);
+  modified\n(изменённый) -- "git add" --> staged\n(в списке на коммит)\n+tracked;
+  staged\n(в списке на коммит)\n+tracked -- "Изменения" --> modified\n(изменённый);
+  
+  
 
 %% стрелка без текста для примера: 
   A --> B;
