@@ -47,11 +47,8 @@ graph LR;
   tracked\n(отслеживаемый) -- "Изменения" --> modified\n(изменённый);
   modified\n(изменённый) -- "git add" --> staged\n(в списке на коммит)\n+tracked;
   staged\n(в списке на коммит)\n+tracked -- "Изменения" --> modified\n(изменённый);
-  
-  
+```
 
-%% стрелка без текста для примера: 
-  A --> B;
-``` 
+
 [Ссылка на git руководство](https://github.com/git/git/blob/master/README.md "Прочитай меня")
     
