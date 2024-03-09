@@ -89,4 +89,4 @@ GitHub-стиль<br/>
 
 # __Полезный ссылки__
 - [Ссылка на git руководство](https://github.com/git/git/blob/master/README.md "Прочитай меня")
-- [Ссылка на AWS](https://aws.amazon.com/ru/"самый популярный провайдер «облачных сервисов», например виртуальных серверов.")
+- [Ссылка на AWS](https://aws.amazon.com/ru/)
