@@ -97,7 +97,7 @@ git log --oneline - команда, при которой в  терминале
     Состояние modified означает, что Git сравнил содержимое файла с последней сохранённой версией и нашёл отличия. Например, файл был закоммичен и после этого изменён.
 
 ```mermaid
-graph statusFiles;
+graph LR;
   untracked -- "git add" --> staged+tracked;
   staged+tracked    -- "git commit"     --> tracked;
   tracked -- "Изменения" --> modified;
