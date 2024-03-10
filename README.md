@@ -56,6 +56,14 @@ echo > "smth"
 ```bash
 sudo
 ```
+"Клонировать репозиторий"
+```bash
+git clone "ssh-key"
+```
+"Проверка, что репозитории связаны"
+```bash
+git remote -v
+```
 
 ---
 
