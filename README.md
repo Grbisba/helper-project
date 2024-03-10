@@ -64,6 +64,14 @@ git clone "ssh-key"
 ```bash
 git remote -v
 ```
+"Копировать данные из файла"
+```bash
+pbcopy < file.txt
+```
+"Вставить данные из файла"
+```bash
+pbpaste
+```
 
 ---
 
