@@ -124,6 +124,10 @@ git remote remove origin git@github.com:%ИМЯ_АККАУНТА%/git-branches.g
 ```bash
 git push -u origin "master or feature/merge-request or etc."
 ```
+"Удалить ветку на github"
+```bash
+git push origin --delete "name_of_branch"
+```
 "Подтянуть изменения из удалённого репозитория"
 ```bash
 git pull 
